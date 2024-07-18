@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif:wght@400&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%); 
+    background-color: hsl(330, 100%, 98%); 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.img {
+    background-image: url('./assets/images/image-omelette.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Young Serif';
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%); 
+    border-radius: 10px; 
+    line-height: 1.6;
+    padding: 15px; 
+}
+
+h2 {
+    font-family: 'Young Serif';
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); 
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: hsl(332, 51%, 32%); 
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: hsl(24, 5%, 18%); 
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+ol {
+    padding-left: 20px;
+    line-height: 1.6;
+    color: hsl(24, 5%, 18%); 
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 0px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    color: hsl(24, 5%, 18%);
+}
+
+td {
+    color: hsl(14, 45%, 36%);
+}
